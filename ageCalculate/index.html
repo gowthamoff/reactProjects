@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DateValidate</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <form onsubmit="return working()">
+            <label>Enter Mother Date</label>
+            <input id="mother_day" type="text" size="2" minlength="2" maxlength="2"
+                oninput="onlyNumbers(this),moveToNextField(this,'mother_month')" autocomplete="off">
+            <input id="mother_month" type="text" size="2" minlength="2" maxlength="2"
+                oninput="onlyNumbers(this),moveToNextField(this,'mother_year')" autocomplete="off">
+            <input id="mother_year" type="text" size="4" minlength="4" maxlength="4"
+                oninput="onlyNumbers(this),moveToNextField(this,'son_day')" autocomplete="off"><br>
+            <span class="spaceThree"></span><label>DD<span class="spaceOne"></span> MM <span
+                    class="spaceTwo"></span>YYYY</label>
+            <br><br>
+            <label>Enter Son Date</label>
+            <span class="spaceFour"></span>
+            <input id="son_day" type="text" size="2" minlength="2" maxlength="2"
+                oninput="onlyNumbers(this),moveToNextField(this,'son_month')" autocomplete="off">
+            <input id="son_month" type="text" size="2" minlength="2" maxlength="2"
+                oninput="onlyNumbers(this),moveToNextField(this,'son_year')" autocomplete="off">
+            <input id="son_year" type="text" size="4" minlength="4" maxlength="4"
+                oninput="onlyNumbers(this),moveToNextField(this,'btn')" autocomplete="off"><br>
+            <span class="spaceThree"></span><label>DD<span class="spaceOne"></span> MM <span
+                    class="spaceTwo"></span>YYYY</label><br>
+            <button id="btn" type="submit">Calculate</button><br><br><br>
+            <div id="display"></div>
+        </form>
+    </div>
+</body>
+
+</html>
