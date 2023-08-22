@@ -1,0 +1,26 @@
+go to src folder and install
+npm i json-server
+npx json-server -p 3500 -w data/db.json
+npm i react-router-dom
+npm i date-fns
+ 
+
+git
+cd path 
+code . //to open vscode
+path clone github link // to clone github repo
+path ls //to list item
+path git add .\filename.py
+path git status 
+path git commit -m "add the text file" //local save
+path git push //save local to github
+path git pull // save github to local 
+path git commit -am "changes" // to commit all files (dont want to use git add)
+git reset --hard <commit code>
+git reset --hard origin/master   
+//branch
+git branch
+git checkout -b "newbranch" // creationg a new branch
+git branch
+git checkout main //switching master branch (main is branch name)
+git merge (mergebranchname) //first switch to main branch

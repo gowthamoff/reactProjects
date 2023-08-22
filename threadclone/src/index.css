@@ -1,0 +1,206 @@
+ @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+  
+ 
+
+ * {
+   margin: 0;
+   padding: 0;
+   text-decoration: none; 
+   box-sizing: border-box;
+ } 
+ 
+ input  {
+   font: inherit;
+ }  
+ 
+ html {
+   font-size: 1.5rem;
+ }
+  
+body {  
+   font-family: 'Nunito', sans-serif;
+   text-align: center;
+ }.searchForm {
+   width: 300px; 
+   padding: 10px;
+   border: 1px solid #ccc;
+   margin-bottom: 10px;
+ }
+ 
+ .searchForm input[type="text"] {
+   width: 100%;
+   box-sizing: border-box;
+   padding: 10px;
+   font-size: 16px;
+   border: 1px solid #ccc;
+   margin-bottom: 10px;
+ }  
+ 
+ .searchForm input[type="submit"] {
+   background-color: #4CAF50;
+   color: white;
+   padding: 10px;
+   font-size: 16px;
+   border: none;
+   cursor: pointer;
+ }
+ 
+ header {
+   background-color: #5A5A5A;
+   font-size: 29px;
+   font-weight: bold;
+   color: #FFFFFF;
+   padding: 20px;
+ }
+ 
+ nav {
+     margin: 0;
+     padding: 0;
+     list-style: none;
+     background-color: #444;
+     font-size: 1.2rem;
+ }
+ 
+ nav li {
+     display: inline-block;
+     padding: 10px;
+ }
+ 
+ nav a {
+     color: white;
+     text-decoration: none;
+     font-weight: bold;
+ }
+ 
+ nav a:hover {
+     color: #999;
+ }
+
+ article {
+   position: relative;
+   padding: 10px;
+   text-decoration: none;
+ }
+ 
+ .post {
+   background-color: #eee;
+   border-radius: 5px;
+   padding: 10px;
+   margin-bottom: 10px;
+   text-decoration: none;
+ }
+ 
+ .postDate {
+   font-size: 0.8em;
+   color: #999;
+   font-style: italic;
+   text-decoration: none;
+ }
+ 
+ .postBody {
+   font-size: 1em;
+   text-decoration: none;
+   color: #333;
+ }
+ 
+ h2 {
+   font-size: 1.5em;
+   font-weight: bold;
+   color: #000;
+ }
+
+ .NewPost {
+   margin: 0 auto;
+   max-width: 800px;
+   padding: 20px;
+   font-family: sans-serif;
+ }
+ 
+ .NewPost h2 {
+   font-size: 1.5rem;
+   color: #333;
+   margin-bottom: 20px;
+ }
+ 
+ .newPostForm {
+   display: flex;
+   flex-direction: column;
+   width: 100%;
+ }
+ 
+ .newPostForm label {
+   font-size: 1.2rem;
+   margin-bottom: 10px;
+ }
+ 
+ .newPostForm input {
+   padding: 8px;
+   font-size: 1.2rem;
+   border: 1px solid #ccc;
+ }
+ 
+ .newPostForm button {
+   background-color: #333;
+   color: #fff;
+   padding: 10px 20px;
+   font-size: 1.2rem;
+   border: none;
+   cursor: pointer;
+ }
+ button {
+   background-color: #271d1d;
+   color: #FFFFFF;
+   padding: 10px;
+   font-weight: bold;
+   border-radius: 5px; 
+   font-family: sans-serif;
+ }
+
+ /* Footer Styles */
+ footer {
+   width: 100%;
+   background-color: #cccccc;
+   padding: 20px 0;
+   position: fixed;
+   left: 0%;
+   bottom: 0%;
+ }
+ 
+ footer a {
+   color: #000000;
+   font-size: 16px;
+   font-weight: bold;
+   text-decoration: none;
+   padding: 0 10px;
+ }
+ 
+ footer a:hover {
+   color: #cccccc;
+   text-decoration: underline;
+ }
+
+ .editbutton {
+   background-color: #4CAF50;
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+ }
+ 
+ .submitbutton {
+   background-color: #008CBA;
+   border: none;
+   color: white;
+   padding: 15px 32px;
+   text-align: center;
+   text-decoration: none;
+   display: inline-block;
+   font-size: 16px;
+   margin: 4px 2px;
+   cursor: pointer;
+ }

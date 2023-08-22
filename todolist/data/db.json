@@ -1,0 +1,29 @@
+{
+  "items": [
+    {
+      "id": 2,
+      "checked": true,
+      "item": "da"
+    },
+    {
+      "id": 6,
+      "checked": false,
+      "item": "rt"
+    },
+    {
+      "id": 7,
+      "checked": false,
+      "item": "h"
+    },
+    {
+      "id": 8,
+      "checked": false,
+      "item": "rth"
+    },
+    {
+      "id": 9,
+      "checked": false,
+      "item": "t"
+    }
+  ]
+}

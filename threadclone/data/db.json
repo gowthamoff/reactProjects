@@ -1,0 +1,58 @@
+{
+  "posts": [
+    {
+      "id": 3,
+      "title": "Winter",
+      "datetime": "January 24,2024",
+      "body": "Winter is the coldest season of the year. It is characterized by lower temperatures, shorter days, and longer nights. During this season, many plants and animals hibernate or migrate to warmer climates."
+    },
+    {
+      "id": 4,
+      "title": "Spring",
+      "datetime": "July 24,2023",
+      "body": "lefr"
+    },
+    {
+      "id": 5,
+      "title": "Summer",
+      "datetime": "July 24,2023",
+      "body": "ewknf"
+    },
+    {
+      "id": 6,
+      "title": "Fall",
+      "datetime": "October 24,2024",
+      "body": "Fall is the season between summer and winter. It is also known as autumn. During this season, the days become shorter and the nights become longer. The leaves of deciduous trees change color and then fall off the tree."
+    },
+    {
+      "id": 7,
+      "title": "Winter",
+      "datetime": "January 24,2025",
+      "body": "Winter is the coldest season of the year. It is characterized by lower temperatures, shorter days, and longer nights. During this season, many plants and animals hibernate or migrate to warmer climates."
+    },
+    {
+      "id": 8,
+      "title": "Spring",
+      "datetime": "April 24,2025",
+      "body": "Spring is the season between winter and summer. It is characterized by warmer temperatures, longer days, and shorter nights. During this season, many plants and animals come out of hibernation and begin to reproduce."
+    },
+    {
+      "id": 9,
+      "title": "Summerd",
+      "datetime": "July 24,2023",
+      "body": "wwd"
+    },
+    {
+      "id": 10,
+      "title": "Fall",
+      "datetime": "October 24,2025",
+      "body": "Fall is the season between summer and winter. It is also known as autumn. During this season, the days become shorter and the nights become longer. The leaves of deciduous trees change color and then fall off the tree."
+    },
+    {
+      "id": 1,
+      "title": "rte",
+      "datetime": "July 24,2023",
+      "body": "rfy"
+    }
+  ]
+}
