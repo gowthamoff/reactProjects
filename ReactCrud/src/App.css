@@ -1,0 +1,30 @@
+.container{
+  font-family: 'Titillium Web', sans-serif;   
+}  
+.header { 
+  color: #fff; 
+  text-align: center;  
+  background-color: rgba(233, 229, 229, 0.459) !important;
+  padding: 10px !important;
+}  
+.floatRight{ 
+  background-color: #9c9cf4;
+  padding: 8px;
+  color: #fff;   
+  border-radius: 5px;
+  text-decoration: none;
+  width: max-content;
+} 
+.homeStyle{ 
+  background-color: #9c9cf4;
+  padding: 8px; 
+  color: #fff;   
+  border-radius: 5px;
+  text-decoration: none;
+} 
+.space02{
+  padding-right: 10px;
+}
+.leftPad{
+  padding-left: 570px !important;
+}
